@@ -1,4 +1,8 @@
-# Project Flow-plan
+# PortfolioPilot 
+
+---
+
+## Table of Contents
 
 1. **Project Setup:**
    - Initialize a new Spring Boot project using the latest version.
