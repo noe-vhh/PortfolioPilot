@@ -1,6 +1,4 @@
-# PortfolioPilot Project Reference
-
-## Project Flow-plan
+# Project Flow-plan
 
 1. **Project Setup:**
    - Initialize a new Spring Boot project using the latest version.
@@ -50,7 +48,9 @@
 ### Connecting to GitHub in Visual Studio Code:
 
 1. Open your project in Visual Studio Code.
+
 2. Install the Git extension if you haven't already. You can do this by searching for "GitLens" in the Extensions view and installing it.
+
 3. Initialize a new Git repository in your project by running the following commands in the terminal:
 
 ```bash
@@ -58,6 +58,7 @@ git init
 ```
 
 4. Create a new repository on GitHub (let's say it's named "PortfolioPilot").
+
 5. Copy the repository URL provided by GitHub.
 
 6. Add the remote repository to your local project:
@@ -81,11 +82,9 @@ git push -u origin master
 
 Your project is now connected to GitHub.
 
-### Project Setup:
+---
 
-Let's set up your fintech project with Java, Spring Boot, and Gradle.
-
-1. **Initialize a new Spring Boot project:**
+### Initialize a new Spring Boot project:
 
 ```bash
 spring init --dependencies=web,data-jpa,mysql --language=java --package-name=com.yourname.portfoliopilot PortfolioPilot
@@ -105,12 +104,12 @@ dependencies {
 }
 ```
 
-3. **Create the project structure:**
+---
+
+### Create the project structure:
 
    - Under `src/main/java`, create packages like `com.yourname.portfoliopilot.controllers`, `com.yourname.portfoliopilot.services`, etc.
    - Under `src/main/resources`, add an `application.properties` file for Spring Boot configuration.
-
-### Project Structure:
 
 1. **Controllers:**
    - Create a package `com.yourname.portfoliopilot.controllers` to store your Spring MVC controllers.
@@ -162,6 +161,8 @@ src
 |       |-- application.properties
 ```
 
+---
+
 ### Database Creation:
 
 1. **Install MySQL:**
@@ -187,23 +188,7 @@ src
 
    Replace `your_username` and `your_password` with your preferred credentials.
 
-   - **Example:**
-     ```sql
-     CREATE USER 'noe-vhh'@'localhost' IDENTIFIED BY 'Kingkong12';
-     GRANT ALL PRIVILEGES ON your_database_name.* TO 'noe-vhh'@'localhost';
-     FLUSH PRIVILEGES;
-     ```
-
-4. **JDBC URL Configuration:**
-   - The JDBC URL in your `application.properties` specifies how to connect to your MySQL database. Update the URL based on your MySQL setup:
-
-     ```properties
-     spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
-     ```
-
-     Adjust the values based on your specific MySQL setup and the name you gave to your database during its creation.
-
-5. **Set up your MySQL database in `application.properties`:**
+4. **Set up your MySQL database in `application.properties`:**
    - In your `application.properties` file, set the database URL, username, and password:
 
    ```properties
@@ -212,9 +197,15 @@ src
    spring.datasource.password=your_password
    ```
 
-   Replace `your_database_name`, `your_username`, and `your_password` with your actual database details.
+   - Replace `your_database_name`, `your_username`, and `your_password` with your actual database details.
 
-6. **Write a simple controller to check if everything is working:**
+   - The JDBC URL in your `application.properties` specifies how to connect to your MySQL database. Update the URL based on your MySQL setup:
+
+     ```properties
+     spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
+     ```
+
+### Write a simple controller to check if everything is working:
 
 ```java
 // PortfolioController.java
@@ -233,7 +224,9 @@ public class PortfolioController {
 }
 ```
 
-7. **Application Entry Point:**
+---
+
+### Application Entry Point:
    - Add a main class (e.g., `PortfolioPilotApplication.java`) in the root package annotated with `@SpringBootApplication`. This serves as the entry point for your Spring Boot application.
 
    ```java
@@ -251,29 +244,9 @@ public class PortfolioController {
        }
    ```
 
-## Start MySQL Server:
+---
 
-### macOS:
-
-1. **Using Terminal:**
-   - Open Terminal.
-   - Run the following command to start MySQL:
-
-     ```bash
-     mysql.server start
-     ```
-
-   - If you have installed MySQL using Homebrew, you might use:
-
-     ```bash
-     brew services start mysql
-     ```
-
-2. **Using MySQL Workbench:**
-   - Open MySQL Workbench.
-   - Connect to your MySQL server instance.
-
-### Windows:
+### Start MySQL Server:
 
 1. **Using MySQL Installer:**
    - Open the MySQL Installer.
@@ -294,25 +267,7 @@ public class PortfolioController {
      mysqld
      ```
 
-### Linux:
-
-1. **Using Terminal:**
-   - Open a terminal.
-   - Run the following command:
-
-     ```bash
-     sudo service mysql start
-     ```
-
-   - Alternatively, on systems using systemd:
-
-     ```bash
-     sudo systemctl start mysql
-     ```
-
-2. **Using MySQL Workbench:**
-   - Open MySQL Workbench.
-   - Connect to your MySQL server instance.
+---
 
 ### Verifying MySQL Server is Running:
 
@@ -333,18 +288,10 @@ Remember to stop your MySQL server when you're done working with it. You can use
 
 ---
 
-## Test the Application:
+### Run the Spring Boot Application Using Terminal:
 
-7. **Test the Application:**
-   - Run your Spring Boot application and navigate to `http://localhost:8080/hello` in a web browser. You should see the "Hello, PortfolioPilot!" message.
-
----
-
-## Run the Spring Boot Application:
-
-### Using Command Line:
-
-1. **Navigate to your project directory:**
+1. **Using Command Line:**
+   - Navigate to your project directory:
    - Open a terminal (Command Prompt, PowerShell, or Terminal) and change your current directory to your Spring Boot project's root folder.
 
 2. **Build the project:**
@@ -364,6 +311,8 @@ Remember to stop your MySQL server when you're done working with it. You can use
 4. **Access the application:**
    - Open your web browser and go to `http://localhost:8080`. If your application is configured differently, adjust the URL accordingly.
 
+---
+
 ### Using IDE (e.g., Visual Studio Code, IntelliJ, Eclipse):
 
 1. **Import the project:**
@@ -377,6 +326,8 @@ Remember to stop your MySQL server when you're done working with it. You can use
 
 4. **Access the application:**
    - Once the application has started, open your web browser and go to `http://localhost:8080`. Adjust the URL if your application is configured differently.
+
+---
 
 ### Note:
 - If the default port `8080` is already in use, Spring Boot will automatically try the next available port (e.g., `8081`).
