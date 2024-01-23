@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. **Project Setup:**
+1. **[Project Setup](#Project-Setup):**
    - Initialize a new Spring Boot project using the latest version.
    - Use Gradle for build automation.
    - Set up your project structure with packages for controllers, services, models, etc.
