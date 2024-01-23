@@ -54,7 +54,7 @@ Contributions are welcome! See the [Contribution Guidelines](CONTRIBUTING.md) fo
 
 ## License
 
-This project is licensed under the [GNU GENERAL PUBLIC LICENSE](LICENSE).
+This project is licensed under the [GNU General Public License](LICENSE).
 
 ## Contact
 
