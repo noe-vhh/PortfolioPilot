@@ -48,6 +48,6 @@ Follow the coding style and conventions outlined in the [style guide](STYLE_GUID
 
 ## License
 
-By contributing to PortfolioPilot, you agree that your contributions will be licensed under the [GNU GENERAL PUBLIC LICENSE](LICENSE).
+By contributing to PortfolioPilot, you agree that your contributions will be licensed under the [GNU General Public License](LICENSE).
 
 Thank you for contributing! 🚀
