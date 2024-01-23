@@ -18,10 +18,12 @@ PortfolioPilot is a fintech project designed to enhance your investment experien
 - Java
 - Spring Boot
 - SQL (MySQL)
-- React (or your chosen frontend framework)
-- Chart.js (or your preferred charting library)
+- React 
+- Chart.js
 
 ## Getting Started
+
+<!--- WIP 
 
 1. **Clone the Repository:**
    ```bash
