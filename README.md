@@ -54,8 +54,8 @@ Contributions are welcome! See the [Contribution Guidelines](CONTRIBUTING.md) fo
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GNU GENERAL PUBLIC LICENSE](LICENSE).
 
 ## Contact
 
-For any inquiries, please contact [Your Name] at [your.email@example.com].
+For any inquiries, please contact Noè at data.noe.houwert@gmail.com.
