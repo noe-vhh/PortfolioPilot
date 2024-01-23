@@ -2,6 +2,12 @@
 
 ![PortfolioPilot Logo](link_to_logo.png)
 
+## Disclaimer
+
+> This PortfolioPilot project is a work in progress, and I am actively learning and refining my skills throughout its development. As a student, I appreciate any tips, advice, or constructive feedback that can contribute to the improvement of this project. Your insights are invaluable, and I welcome collaborative engagement on this learning journey. Thank you for your understanding and support.
+
+> Kindly note that, as of the current stage, the PortfolioPilot project is not yet operational. Development is ongoing, and certain features may not be fully functional. Your patience and understanding are appreciated as I work towards implementing the necessary components and refining the project. Stay tuned for updates, and thank you for your interest and understanding during this development phase.
+
 ## Overview
 
 PortfolioPilot is a fintech project designed to enhance your investment experience by providing insightful portfolio statistics. It simplifies the tracking of your stock holdings, offering graphical projections and key financial metrics.
