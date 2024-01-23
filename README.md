@@ -1,6 +1,6 @@
 # PortfolioPilot
 
-![PortfolioPilot Logo](https://github.com/noe-vhh/PortfolioPilot/blob/main/IMG_8964.png)
+![PortfolioPilot Logo](https://github.com/noe-vhh/PortfolioPilot/blob/main/Logo.png)
 
 ## Disclaimer
 
