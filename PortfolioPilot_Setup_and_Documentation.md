@@ -1,6 +1,4 @@
-# PortfolioPilot 
-
----
+# PortfolioPilot Setup and Documentation
 
 ## Table of Contents
 
