@@ -29,7 +29,7 @@ PortfolioPilot is a fintech project designed to enhance your investment experien
 
 ## Getting Started
 
-> WIP 
+> Does not work as of yet
 
 1. **Clone the Repository:**
    ```bash
